@@ -2,37 +2,37 @@
     font-family: gotham;
     src: url(fonts/Gotham/Gotham\ Ultra.otf);
     font-weight: 900;
-};
+}
 @font-face {
     font-family: gotham;
     src: url(fonts/Gotham/Gotham\ Black.otf);
     font-weight: 800;
-};
+}
 @font-face {
     font-family: gotham;
     src: url(fonts/Gotham/Gotham\ Regular.otf);
     font-weight: 700;
-};
+}
 @font-face {
     font-family: gotham;
     src: url(fonts/Gotham/Gotham\ Bold.otf);
     font-weight: 600;
-};
+}
 @font-face {
     font-family: gotham;
     src: url(fonts/Gotham/Gotham\ Pro\ Bold.ttf);
     font-weight: 500;
-};
+}
 @font-face {
     font-family: gotham;
     src: url(fonts/Gotham/Gotham\ Medium.otf);
     font-weight: 400;
-};
+}
 @font-face {
     font-family: gotham;
     src: url(fonts/Gotham/Gotham\ Book.otf);
     font-weight: 300;
-};
+}
 @font-face {
     font-family: gotham;
     src: url(fonts/Gotham/Gotham\ Light.otf);
@@ -42,7 +42,7 @@
     font-family: gotham;
     src: url(fonts/Gotham/Gotham\ Thin.otf);
     font-weight: 100;
-};
+}
 *{
     margin: 0;
     padding: 0;
@@ -51,12 +51,12 @@
     text-decoration: none;
     color: inherit;
     list-style-type: none;
-};
+}
 .navbar-container{
     width: 100%;
     height: 72px;
     background-color: #212121; 
-};
+}
 .navbar{
     max-width: 1276px;
     width: 100%;
@@ -65,25 +65,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-};
+}
 .nav-logo{
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-};
+}
 .nav-logo-link{
     height: 100%;
     width: 72px;
-};
+}
 .nav-logo-link svg{
     height: 100%;
     width: 100%;
-};
+}
 .nav-menu{
     height: 100%;
     display: flex;
-};
+}
 .nav-item{
     height: 100%;
     display: flex;
@@ -94,71 +94,71 @@
     opacity: 0.7;
     padding: 0 10px;
     cursor: pointer;
-};
+}
 .nav-item:hover{
     transition: all 100ms ease-in-out;
     opacity: 1;
-};
+}
 .nav-btn-item{
     padding: 0;
-};
+}
 .nav-item > svg{
     width: 25px;
     fill: white;
     padding: 10px;
     box-sizing: content-box;
-};
+}
 #nav-lang > svg{
     padding: 6px;
     border-radius: 50%;
-};
+}
 #nav-lang > svg:hover{
     background-color: rgb(70, 70, 70);
-};
+}
 .highlight-container{
     background-color: #212121;
     width: 100%;
-};
+}
 .highlight{
     max-width: 1276px;
     width: 100%;
     margin: 0 auto;
     padding: 70px 0px;
-};
+}
 .highlight-heading{
     color: white;
     font-size:42px;
     padding-right: 450px;
     margin-bottom: 15px;
-};
+}
 .highlight-para{
     color: white;
     font-size: 30px;
     font-weight: 200;
     margin-bottom: 35px;
-};
+}
 .tools-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-};
+}
 .tool-item{
     padding-right: 100px;
-};
+}
 .tool-item-img{
     width: 48px;
     height: 48px;
     margin-bottom: 15px;
-};
+}
 .tool-item:nth-child(4) > .tool-item-img{
     width: 43px;
     height: 43px;
-};
+}
 .tool-item-heading{
     color: white;
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 5px;
-};
+}
 .tool-item-para{
     color: white;
     line-height: 28px;
@@ -167,9 +167,9 @@
     font-weight: 100;
     opacity: 0.7;
     margin-bottom: 15px;
-};
+}
 .tool-item-link{
     color: #4ca6ff;
     font-weight: 200;
-};
+}
 
