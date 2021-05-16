@@ -115,4 +115,61 @@
 #nav-lang > svg:hover{
     background-color: rgb(70, 70, 70);
 }
+.highlight-container{
+    background-color: #212121;
+    width: 100%;
+}
+.highlight{
+    max-width: 1276px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 70px 0px;
+}
+.highlight-heading{
+    color: white;
+    font-size:42px;
+    padding-right: 450px;
+    margin-bottom: 15px;
+}
+.highlight-para{
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 35px;
+}
+.tools-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.tool-item{
+    padding-right: 100px;
+}
+.tool-item-img{
+    width: 48px;
+    height: 48px;
+    margin-bottom: 15px;
+}
+.tool-item:nth-child(4) > .tool-item-img{
+    width: 43px;
+    height: 43px;
+}
+.tool-item-heading{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.tool-item-para{
+    color: white;
+    line-height: 28px;
+    letter-spacing: 0px;
+    word-spacing: 1.5px;
+    font-weight: 100;
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+.tool-item-link{
+    color: #4ca6ff;
+    font-weight: 200;
+}
 
