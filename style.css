@@ -544,3 +544,26 @@
 .right-arrow-btn:hover{
     background-color: #00000015;
 }
+.company-container{
+    width: 100%;
+}
+.company-content{
+    width: 100%;
+    max-width: 1276px;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+.company-heading{
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 40px;
+    margin-bottom: 60px;
+}
+.company-list{
+    display: flex;
+    justify-content: space-between;
+}
+.company-img{
+    height: 85px;
+    width: 150px;
+}
