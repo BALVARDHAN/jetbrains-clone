@@ -403,4 +403,44 @@
 .news-event-link:hover{
     text-decoration: underline;
 }
-
+.trusted-container{
+    width: 100%;
+    background-color: #212121;
+}
+.trusted-content{
+    width: 100%;
+    max-width:1276px;
+    margin: 0 auto;
+    display: flex;
+    padding: 70px 0 50px 0;
+    color: white;
+}
+.trusted-numbers{
+    display: flex;
+    align-items: center;
+}
+.trusted-numbers-tools,
+.trusted-numbers-joining{
+    display: flex;
+    flex-direction: column;
+}
+.trusted-main-heading{
+    font-size: 42px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+.trusted-main-para{
+    font-size: 30px;
+    font-weight: 200;
+    padding-right: 150px;
+    line-height: 40px;
+}
+.trusted-number-heading{
+    font-size: 70px;
+    font-weight: 300;
+    margin-right: 40px;
+}
+.trusted-numbers span{
+    font-size: 14px;
+    font-weight: 200;
+}
