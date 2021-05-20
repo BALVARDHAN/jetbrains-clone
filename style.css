@@ -51,6 +51,7 @@
     text-decoration: none;
     color: inherit;
     list-style-type: none;
+    transition: all 100ms ease-in-out;
 }
 .navbar-container{
     width: 100%;
@@ -443,4 +444,103 @@
 .trusted-numbers span{
     font-size: 14px;
     font-weight: 200;
+}
+.carousel-container{
+    width: 100%;
+    background: 
+    linear-gradient(180deg,#212121 50%,#fff 0);
+}
+.carousel{
+    width: 100%;
+    max-width: 1276px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.carousel-slider{
+    display: flex;
+    width: 300%;
+    position: relative;
+    transition: all 300ms ease-in-out;
+}
+.carousel-item{
+    display: flex;
+    width: 100%;
+    background-color: #945dff;
+}
+.carousel-item-img{
+    width: 400px;
+    height: 400px;
+}
+.carousel-item-content{
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.carousel-item-review{
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 50px;
+}
+.carousel-item-name{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.carousel-item-company{
+    font-size: 15px;
+    font-weight: 200;
+    opacity: 0.7;
+}
+.carousel-navigation{
+    width: 100%;
+    max-width: 1276px;
+    padding: 25px 0px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonial-link{
+    display: inline-block;
+    border: 1px solid darkgray;
+    border-radius: 50px;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 200;
+}
+.testimonial-link:hover{
+    background-color: #00000015
+}
+.carousel-nav-btns,
+.left-arrow-btn,
+.right-arrow-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-arrow-img,
+.right-arrow-img{
+    width: 25px;
+    height: 25px;
+}
+.carousel-index{
+    font-size: 15px;
+    opacity: 0.7;
+    width: 80px;
+    text-align: center;
+}
+.left-arrow-btn,
+.right-arrow-btn{
+    border: none;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+}
+.left-arrow-btn:hover,
+.right-arrow-btn:hover{
+    background-color: #00000015;
 }
